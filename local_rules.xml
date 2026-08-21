@@ -1,0 +1,9 @@
+<group name="local,syslog,">
+  <rule id="100001" level="10">
+    <if_sid>4728</if_sid>
+    <description>Active Directory: Member added to privileged global group</description>
+    <mitre>
+      <id>T1078</id>
+    </mitre>
+  </rule>
+</group>
